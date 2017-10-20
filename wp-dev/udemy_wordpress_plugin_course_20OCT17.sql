@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Oct 20, 2017 at 12:34 PM
+-- Generation Time: Oct 20, 2017 at 12:45 PM
 -- Server version: 5.7.19-0ubuntu0.16.04.1
 -- PHP Version: 7.0.22-0ubuntu0.16.04.1
 
@@ -136,7 +136,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (30, 'hack_file', '0', 'yes'),
 (31, 'blog_charset', 'UTF-8', 'yes'),
 (32, 'moderation_keys', '', 'no'),
-(33, 'active_plugins', 'a:0:{}', 'yes'),
+(33, 'active_plugins', 'a:1:{i:0;s:43:"snappy-list-builder/snappy-list-builder.php";}', 'yes'),
 (34, 'category_base', '', 'yes'),
 (35, 'ping_sites', 'http://rpc.pingomatic.com/', 'yes'),
 (36, 'comment_max_links', '2', 'yes'),
@@ -218,7 +218,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (117, '_site_transient_timeout_theme_roots', '1508522393', 'no'),
 (118, '_site_transient_theme_roots', 'a:3:{s:13:"twentyfifteen";s:7:"/themes";s:15:"twentyseventeen";s:7:"/themes";s:13:"twentysixteen";s:7:"/themes";}', 'no'),
 (119, '_site_transient_update_themes', 'O:8:"stdClass":4:{s:12:"last_checked";i:1508520596;s:7:"checked";a:3:{s:13:"twentyfifteen";s:3:"1.8";s:15:"twentyseventeen";s:3:"1.3";s:13:"twentysixteen";s:3:"1.3";}s:8:"response";a:0:{}s:12:"translations";a:0:{}}', 'no'),
-(120, '_site_transient_update_plugins', 'O:8:"stdClass":4:{s:12:"last_checked";i:1508520595;s:8:"response";a:1:{s:19:"akismet/akismet.php";O:8:"stdClass":11:{s:2:"id";s:21:"w.org/plugins/akismet";s:4:"slug";s:7:"akismet";s:6:"plugin";s:19:"akismet/akismet.php";s:11:"new_version";s:3:"4.0";s:3:"url";s:38:"https://wordpress.org/plugins/akismet/";s:7:"package";s:54:"https://downloads.wordpress.org/plugin/akismet.4.0.zip";s:5:"icons";a:3:{s:2:"1x";s:59:"https://ps.w.org/akismet/assets/icon-128x128.png?rev=969272";s:2:"2x";s:59:"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272";s:7:"default";s:59:"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272";}s:7:"banners";a:2:{s:2:"1x";s:61:"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904";s:7:"default";s:61:"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904";}s:11:"banners_rtl";a:0:{}s:6:"tested";s:5:"4.8.1";s:13:"compatibility";O:8:"stdClass":0:{}}}s:12:"translations";a:0:{}s:9:"no_update";a:1:{s:9:"hello.php";O:8:"stdClass":9:{s:2:"id";s:25:"w.org/plugins/hello-dolly";s:4:"slug";s:11:"hello-dolly";s:6:"plugin";s:9:"hello.php";s:11:"new_version";s:3:"1.6";s:3:"url";s:42:"https://wordpress.org/plugins/hello-dolly/";s:7:"package";s:58:"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip";s:5:"icons";a:3:{s:2:"1x";s:63:"https://ps.w.org/hello-dolly/assets/icon-128x128.jpg?rev=969907";s:2:"2x";s:63:"https://ps.w.org/hello-dolly/assets/icon-256x256.jpg?rev=969907";s:7:"default";s:63:"https://ps.w.org/hello-dolly/assets/icon-256x256.jpg?rev=969907";}s:7:"banners";a:2:{s:2:"1x";s:65:"https://ps.w.org/hello-dolly/assets/banner-772x250.png?rev=478342";s:7:"default";s:65:"https://ps.w.org/hello-dolly/assets/banner-772x250.png?rev=478342";}s:11:"banners_rtl";a:0:{}}}}', 'no'),
+(120, '_site_transient_update_plugins', 'O:8:"stdClass":5:{s:12:"last_checked";i:1508521494;s:7:"checked";a:3:{s:19:"akismet/akismet.php";s:5:"3.3.4";s:9:"hello.php";s:3:"1.6";s:43:"snappy-list-builder/snappy-list-builder.php";s:3:"1.0";}s:8:"response";a:2:{s:19:"akismet/akismet.php";O:8:"stdClass":11:{s:2:"id";s:21:"w.org/plugins/akismet";s:4:"slug";s:7:"akismet";s:6:"plugin";s:19:"akismet/akismet.php";s:11:"new_version";s:3:"4.0";s:3:"url";s:38:"https://wordpress.org/plugins/akismet/";s:7:"package";s:54:"https://downloads.wordpress.org/plugin/akismet.4.0.zip";s:5:"icons";a:3:{s:2:"1x";s:59:"https://ps.w.org/akismet/assets/icon-128x128.png?rev=969272";s:2:"2x";s:59:"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272";s:7:"default";s:59:"https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272";}s:7:"banners";a:2:{s:2:"1x";s:61:"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904";s:7:"default";s:61:"https://ps.w.org/akismet/assets/banner-772x250.jpg?rev=479904";}s:11:"banners_rtl";a:0:{}s:6:"tested";s:5:"4.8.1";s:13:"compatibility";O:8:"stdClass":0:{}}s:43:"snappy-list-builder/snappy-list-builder.php";O:8:"stdClass":11:{s:2:"id";s:33:"w.org/plugins/snappy-list-builder";s:4:"slug";s:19:"snappy-list-builder";s:6:"plugin";s:43:"snappy-list-builder/snappy-list-builder.php";s:11:"new_version";s:7:"1.0.1.2";s:3:"url";s:50:"https://wordpress.org/plugins/snappy-list-builder/";s:7:"package";s:70:"https://downloads.wordpress.org/plugin/snappy-list-builder.1.0.1.2.zip";s:5:"icons";a:0:{}s:7:"banners";a:0:{}s:11:"banners_rtl";a:0:{}s:6:"tested";s:5:"4.3.7";s:13:"compatibility";O:8:"stdClass":0:{}}}s:12:"translations";a:0:{}s:9:"no_update";a:1:{s:9:"hello.php";O:8:"stdClass":9:{s:2:"id";s:25:"w.org/plugins/hello-dolly";s:4:"slug";s:11:"hello-dolly";s:6:"plugin";s:9:"hello.php";s:11:"new_version";s:3:"1.6";s:3:"url";s:42:"https://wordpress.org/plugins/hello-dolly/";s:7:"package";s:58:"https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip";s:5:"icons";a:3:{s:2:"1x";s:63:"https://ps.w.org/hello-dolly/assets/icon-128x128.jpg?rev=969907";s:2:"2x";s:63:"https://ps.w.org/hello-dolly/assets/icon-256x256.jpg?rev=969907";s:7:"default";s:63:"https://ps.w.org/hello-dolly/assets/icon-256x256.jpg?rev=969907";}s:7:"banners";a:2:{s:2:"1x";s:65:"https://ps.w.org/hello-dolly/assets/banner-772x250.png?rev=478342";s:7:"default";s:65:"https://ps.w.org/hello-dolly/assets/banner-772x250.png?rev=478342";}s:11:"banners_rtl";a:0:{}}}}', 'no'),
 (121, '_site_transient_timeout_browser_ead856262e4f0221ec6c4a08aee66ec2', '1509125416', 'no'),
 (122, '_site_transient_browser_ead856262e4f0221ec6c4a08aee66ec2', 'a:10:{s:4:"name";s:6:"Chrome";s:7:"version";s:12:"62.0.3202.62";s:8:"platform";s:5:"Linux";s:10:"update_url";s:29:"https://www.google.com/chrome";s:7:"img_src";s:43:"http://s.w.org/images/browsers/chrome.png?1";s:11:"img_src_ssl";s:44:"https://s.w.org/images/browsers/chrome.png?1";s:15:"current_version";s:2:"18";s:7:"upgrade";b:0;s:8:"insecure";b:0;s:6:"mobile";b:0;}', 'no'),
 (124, 'can_compress_scripts', '0', 'no'),
@@ -237,7 +237,11 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (133, '_transient_timeout_feed_mod_d117b5738fbd35bd8c0391cda1f2b5d9', '1508563818', 'no'),
 (134, '_transient_feed_mod_d117b5738fbd35bd8c0391cda1f2b5d9', '1508520618', 'no'),
 (135, '_transient_timeout_dash_v2_3605f57d6641b1f6504fce9d39bcf566', '1508563818', 'no'),
-(136, '_transient_dash_v2_3605f57d6641b1f6504fce9d39bcf566', '<div class="rss-widget"><ul><li><a class=\'rsswidget\' href=\'https://wordpress.org/news/2017/10/wordpress-4-9-beta-3/\'>WordPress 4.9 Beta 3</a></li></ul></div><div class="rss-widget"><ul><li><a class=\'rsswidget\' href=\'https://heropress.com/accepting-donations/#utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=accepting-donations\'>HeroPress: Accepting Donations</a></li><li><a class=\'rsswidget\' href=\'https://wptavern.com/from-building-wordpress-sites-to-selling-plugins-in-one-year\'>WPTavern: From Building WordPress Sites to Selling Plugins in One Year</a></li><li><a class=\'rsswidget\' href=\'https://wptavern.com/amp-project-turns-2-automattic-partners-with-google-to-improve-wordpress-plugin\'>WPTavern: AMP Project Turns 2,  Automattic Partners with Google to Improve WordPress Plugin</a></li></ul></div>', 'no');
+(136, '_transient_dash_v2_3605f57d6641b1f6504fce9d39bcf566', '<div class="rss-widget"><ul><li><a class=\'rsswidget\' href=\'https://wordpress.org/news/2017/10/wordpress-4-9-beta-3/\'>WordPress 4.9 Beta 3</a></li></ul></div><div class="rss-widget"><ul><li><a class=\'rsswidget\' href=\'https://heropress.com/accepting-donations/#utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=accepting-donations\'>HeroPress: Accepting Donations</a></li><li><a class=\'rsswidget\' href=\'https://wptavern.com/from-building-wordpress-sites-to-selling-plugins-in-one-year\'>WPTavern: From Building WordPress Sites to Selling Plugins in One Year</a></li><li><a class=\'rsswidget\' href=\'https://wptavern.com/amp-project-turns-2-automattic-partners-with-google-to-improve-wordpress-plugin\'>WPTavern: AMP Project Turns 2,  Automattic Partners with Google to Improve WordPress Plugin</a></li></ul></div>', 'no'),
+(137, '_transient_is_multi_author', '0', 'yes'),
+(138, '_transient_timeout_plugin_slugs', '1508607898', 'no'),
+(139, '_transient_plugin_slugs', 'a:3:{i:0;s:19:"akismet/akismet.php";i:1;s:9:"hello.php";i:2;s:43:"snappy-list-builder/snappy-list-builder.php";}', 'no'),
+(140, 'recently_activated', 'a:0:{}', 'yes');
 
 -- --------------------------------------------------------
 
@@ -562,7 +566,7 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT for table `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=137;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=141;
 --
 -- AUTO_INCREMENT for table `wp_postmeta`
 --
